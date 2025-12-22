@@ -1,6 +1,7 @@
 import React from "react";
 import { Github, ExternalLink } from "lucide-react";
 import netwise from "../assets/images/NetWise.png";
+import kinter from "../assets/images/Kinter.png";
 import construction from "../assets/images/Construction.png";
 import lendingPage from "../assets/images/LandingPage.png";
 import eduHub from "../assets/images/EduHub.png";
@@ -30,6 +31,18 @@ const ProjectShowcase = () => {
         demo: "https://netwise-it.netlify.app/",
       },
       image: netwise,
+      featured: true,
+    },
+    {
+      title: "Kinter - Kindergarten Website",
+      description:
+        "Kinter is a fully responsive kindergarten website that showcases essential features for a modern early childhood education center. This project is built using HTML, CSS, JavaScript, and Bootstrap, focusing on colorful UI, usability, and mobile-friendly layouts.",
+      tags: ["Html", "CSS", "JavaScripts", "Bootstrap", "Kinder Garten"],
+      links: {
+        github: "https://github.com/rehan606/Kinter-Kids-Kindergarten-School-HTML5-Template",
+        demo: "https://kinter-kintergarten-website.netlify.app/",
+      },
+      image: kinter,
       featured: true,
     },
     {
