@@ -1,6 +1,10 @@
 import React from "react";
 import { Github, ExternalLink } from "lucide-react";
 import foodKing from "../assets/images/FoodKing.png";
+import netwise from "../assets/images/NetWise.png";
+import lendingPage from "../assets/images/LandingPage.png";
+import eduHub from "../assets/images/EduHub.png";
+import mediMart from "../assets/images/MediMart.png";
 import equiSports from "../assets/images/Equi-Sports.png"
 import career from "../assets/images/Career-Counseling.png"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -16,10 +20,58 @@ const MacOsButtons = () => (
 const ProjectShowcase = () => {
   const projects = [
     {
+      title: "Netwise — IT Solutions & Tech ",
+      description:
+        "A clean, modern and fully responsive HTML template designed for IT solution companies, software vendors, tech startups and digital agencies. Netwise focuses on clarity, fast performance, and easy customization. Use for corporate website quickly.",
+      tags: ["Html", "CSS", "Sass", "JavaScripts", "IT-Solution", "Technology"],
+      links: {
+        github: "https://github.com/rehan606/Netwise-IT-Solutions-and-Technology-HTML-Template",
+        demo: "https://netwise-it.netlify.app/",
+      },
+      image: netwise,
+      featured: true,
+    },
+    {
+      title: "Modern Landing Page",
+      description:
+        "A professional, responsive, and animated landing page built with React, Tailwind CSS, and Framer Motion. This project showcases smooth animations, clean layout, and modern design principles — perfect for startups, portfolios, or SaaS products.",
+      tags: ["Html", "CSS", "Tailwind CSS", "Framer Motion", "Landing Page"],
+      links: {
+        github: "https://github.com/rehan606/Modern-Landing-Page",
+        demo: "https://modernlandingp.netlify.app/",
+      },
+      image: lendingPage,
+      featured: true,
+    },
+    {
+      title: "EduHub-College Booking Website",
+      description:
+        "EduHub is a full-featured MERN Stack-based college booking platform that allows users to search, explore, and book college services and facilities. It offers an intuitive interface with real-time college search, detailed college info, admission form submissions, and user-generated reviews — all in one centralized hub.",
+      tags: ["Html", "React", "Tailwind CSS", "Education", "College Admission"],
+      links: {
+        github: "https://github.com/rehan606/EduHub-College-Booking-Web-Application",
+        demo: "https://eduhubcollege.netlify.app/",
+      },
+      image: eduHub,
+      featured: true,
+    },
+    {
+      title: "💊 MediMart ",
+      description:
+        "MediMart is a modern and responsive pharmacy website, designed for seamless online medicine shopping. It features an intuitive UI, product categorization, secure checkout, and essential healthcare information.",
+      tags: ["React", "NodeJs", "ExpressJs", "MongoDB", "Pharmacy Mangment"],
+      links: {
+        github: "https://github.com/rehan606/MediMart",
+        demo: "https://medimart-cbe0f.web.app/",
+      },
+      image: mediMart,
+      featured: true,
+    },
+    {
       title: "FoodKing ",
       description:
-        "FoodKing is a dynamic food ordering and management web application developed using modern technologies. It features a responsive design, robust functionality, and secure user authentication to enhance user experience and streamline order management..",
-      tags: ["React", "Foods", "Web Development"],
+        "FoodKing is a dynamic food ordering and management web application developed using modern technologies. It features a responsive design, robust functionality, and secure user authentication and order management..",
+      tags: ["React", "NodeJs", "ExpressJs", "MongoDB", "Restaurant Management"],
       links: {
         github: "https://github.com/rehan606/FoodKing",
         demo: "https://foodking-d2588.web.app/",
@@ -42,7 +94,7 @@ const ProjectShowcase = () => {
     {
       title: "Equi Sports ",
       description:
-        "Equi Sports is an online sports equipment store designed to provide a seamless experience for browsing, managing, and purchasing sports gear. Built with a focus on user-friendliness and responsiveness, the platform offers efficient management tools for both users and administrators.",
+        "Equi Sports is an online sports equipment store designed to provide a seamless experience for browsing, managing, and purchasing sports gear. Built with a focus on user-friendliness and responsiveness.",
       tags: [ "Frontend Development", "React", "Web Development", "Sports"],
       links: {
         github: "https://github.com/rehan606/EquiSports",
@@ -60,7 +112,7 @@ const ProjectShowcase = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-center group rounded-lg p-[2px] bg-gradient-to-r from-cyan-500 via-purple-500 to-emerald-500 bg-[length:400%_400%] animate-gradient-xy hover:bg-[length:100%_100%] transition-all duration-700 shadow-lg gap-4"
+            className="flex flex-col md:flex-row items-center group rounded-lg p-[2px] bg-gradient-to-r from-red-500 via-purple-500 to-emerald-500 bg-[length:400%_400%] animate-gradient-xy hover:bg-[length:100%_100%] transition-all duration-700 shadow-lg gap-4"
           >
             {/* Image Section */}
             <div className="md:w-1/2  overflow-hidden rounded-lg ">
