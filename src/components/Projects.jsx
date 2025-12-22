@@ -1,10 +1,11 @@
 import React from "react";
 import { Github, ExternalLink } from "lucide-react";
-import foodKing from "../assets/images/FoodKing.png";
 import netwise from "../assets/images/NetWise.png";
+import construction from "../assets/images/Construction.png";
 import lendingPage from "../assets/images/LandingPage.png";
 import eduHub from "../assets/images/EduHub.png";
 import mediMart from "../assets/images/MediMart.png";
+import foodKing from "../assets/images/FoodKing.png";
 import equiSports from "../assets/images/Equi-Sports.png"
 import career from "../assets/images/Career-Counseling.png"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -29,6 +30,18 @@ const ProjectShowcase = () => {
         demo: "https://netwise-it.netlify.app/",
       },
       image: netwise,
+      featured: true,
+    },
+    {
+      title: "Construction - Multi-Page Responsive Website",
+      description:
+        "A complete multi-page construction company website designed for showcasing services and engaging clients. Built with HTML, CSS, JavaScript, and Bootstrap, the site is fully responsive and offers a clean, modern user experience.",
+      tags: ["Html", "CSS", "Bootstrap", "JavaScripts", "Construction",],
+      links: {
+        github: "https://github.com/rehan606/Construction",
+        demo: "https://construction-multipage-website.netlify.app/",
+      },
+      image: construction,
       featured: true,
     },
     {
