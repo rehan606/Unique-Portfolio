@@ -8,7 +8,7 @@ const AboutMe = () => {
         <div className="content max-w-2xl md:w-6/12 lg:w-8/12 ">
           <h2 className="text-[#4ECCA3] text-2xl font-bold mb-6">WHO I AM?</h2>
           <p className="text-lg leading-relaxed text-justify">
-            Hello! I’m Rehan. A professional 🌟 Front-End Developer skilled in React, JavaScript, Tailwind CSS, Node.js. Express.js and MongoDB. I craft error-free, user-friendly, responsive websites focused on client satisfaction.
+            Hello! I’m Rehan. A professional 🌟 Front-End Developer skilled in React, NextJS,  Node.js. Express.js, MongoDB, JavaScript and Tailwind CSS,. I craft error-free, user-friendly, responsive websites focused on client satisfaction.
             My focus is on
             making web development faster, easier, and accessible to all
             developers. Currently, I’m expanding into backend development to
