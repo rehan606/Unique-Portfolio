@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Send, Phone, MapPin, Mail } from "lucide-react";
+import { Send, MapPin, Mail, PhoneCall } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -16,12 +16,13 @@ export default function Contact() {
 
     // Create a new FormData object to send to Web3Forms API
     const form = new FormData();
-    form.append("access_key", "90f4b8af-e590-42b0-beaf-10b18f66a703"); // Replace with your Web3Forms access key
+    form.append("access_key", import.meta.env.VITE_WEB3FORM_KEY ); // Replace with your Web3Forms access  "90f4b8af-e590-42b0-beaf-10b18f66a703" key
     form.append("name", formData.name);
     form.append("email", formData.email);
     form.append("subject", formData.subject || "New Contact Form Submission");
     form.append("message", formData.message);
-
+    
+ 
     try {
       // Send form data to Web3Forms API
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -72,6 +73,16 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold">Email</h3>
                     <p className="text-gray-400">rehanlemu@gmail.com</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
+                  <div className="bg-purple-500/10 p-3 rounded-lg">
+                    <PhoneCall className="w-6 h-6 text-purple-400" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">Phone</h3>
+                    <p className="text-gray-400">+880 1822 1822 07</p>
                   </div>
                 </div>
 
