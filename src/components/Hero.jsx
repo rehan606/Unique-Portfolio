@@ -62,8 +62,9 @@ export default function Hero() {
       name: 'Md Kamrul Hassan Rehan',
       title: 'Frontend Developer | Problem Solver',
       skills: [
-        'React', 'NodeJS', 'Express', 'MongoDB',
-        'Firebase', 'Tailwind', 'JavaScript','Git', 
+        'React', 'NextJS', 'NodeJS', 'Express', 'MongoDB',
+        'Firebase', 'Tailwind', 'JavaScript','Git', 'GitHub', 
+        'Figma', 'Adobe Photoshop', 'Adobe Illustrator', 
       ],
       hardWorker: true,
       quickLearner: true,
@@ -182,7 +183,7 @@ export default function Hero() {
                 </a>
               </div>
 
-              {/* Floating badges */}
+              {/* Floating badges */} 
               <div className="hidden lg:block absolute left-[5.5rem] top-[2.3rem] animate-float-slow">
                 <div className="px-4 py-2 rounded-lg bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 text-purple-400">
                   <i className="fas fa-wand-magic-sparkles"></i>&nbsp;&nbsp;UI
