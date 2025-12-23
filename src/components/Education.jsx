@@ -23,14 +23,21 @@ const EducationSection = () => {
     {
       degree: "Bachelor of business studies (BBS)",
       school: "Omargani M.E.S College",
-      mascot: "📗",
+      mascot: "📘",
       year: "2019",
       achievements: [ "Subject: Business Studies"],
     },
     {
-      degree: "Master of business administrator (MBA)",
+      degree: "Preliminary to Master's",
       school: "Gov't Commerce College Chittagong",
       mascot: "📗",
+      year: "2023",
+      achievements: [ "Subject: Accounting"],
+    },
+    {
+      degree: "Master of business administrator (MBA)",
+      school: "Gov't Commerce College Chittagong",
+      mascot: "🎓",
       year: "2025",
       achievements: [ "Subject: Accounting"],
     },
