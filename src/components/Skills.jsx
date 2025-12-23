@@ -55,15 +55,15 @@ const SkillsSection = () => {
     },
     {
       icon: Layout,
-      title: "UI/UX Design",
+      title: "UI/UX Design / Graphic Design",
       color: "text-purple-400",
-      skills: ["Figma", "Responsive Design", ],
+      skills: ["Adobe Illustrator", "Adobe Photoshop", "Figma", "Canva", "Responsive Design"],
     },
     {
       icon: Cloud,
-      title: "Cloud & DevOps",
+      title: "Microsoft Office Management",
       color: "text-orange-400",
-      skills: [ "Git", "GitHub"],
+      skills: [ "Ms Word", "Ms Excel", "PowerPoint", "Access", "Outlook" ],
     },
     {
       icon: Cpu,
@@ -76,6 +76,8 @@ const SkillsSection = () => {
         "Vercel",
         "Vite",
         "Netlify",
+        "Git", 
+        "GitHub",
       ],
     },
     {
