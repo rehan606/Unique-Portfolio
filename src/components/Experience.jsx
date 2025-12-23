@@ -1,5 +1,5 @@
 import React from "react";
-import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
+import { Code2, Activity, Cpu, Layers, Network, Binary, BedSingleIcon, Briefcase, Monitor, Store, Globe,  } from "lucide-react";
 
 const ExperienceCard = ({
   title,
@@ -54,30 +54,55 @@ const ExperienceCard = ({
 
 const ExperienceSection = () => {
   const experiences = [
-    // {
-    //   icon: Network,
-    //   title: "WordPress Developer",
-    //   company: "Fiverr",
-    //   period: "2019 - 2020",
-    //   description:
-    //     "Worked on developing and customizing WordPress websites for clients globally.",
-    // },
-    // {
-    //   icon: Layers,
-    //   title: "Junior Frontend Developer",
-    //   company: "Sera Programmer",
-    //   period: "2021 - 2023",
-    //   description:
-    //     "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
-    // },
+    {
+      icon: Globe,
+      title: "E-Commerce Website Manager ",
+      company: "Oivape.com",
+      period: "2025 - Present",
+      description:
+        "Website management & updates, Product listing & inventory control, Order processing & customer support, Coordinated with marketing for promotions and campaigns, Analyzed website traffic and sales data to optimize performance.",
+    },
+    {
+      icon: Store,
+      title: "Manager - Brand Showroom ",
+      company: "Poshak Bazar",
+      period: "2023 - 2024",
+      description:
+        "Supervised daily showroom operations and managed the sales team. Maintained customer satisfaction with effective communication and service. Ensured smooth handling of records and reporting using the Inventory Management Application",
+    },
     {
       icon: Code2,
       title: "Web Designer",
       company: "Express-Row",
-      period: "2020 ",
+      period: "2021 - 2022 ",
       description:
-        "Specialized in designing and developing responsive websites using HTML, CSS, Bootstrap, and JavaScript, Delivered multiple client projects.Enhanced website performance and resolved UI/UX issues.",
+        "Specialized in designing and developing responsive websites using HTML, CSS, Bootstrap, and JavaScript, Delivered multiple client projects.Enhanced website performance and resolved UI/UX issues. Collaborated with clients to meet their design requirements and preferences.",
     },
+    {
+      icon: Monitor,
+      title: "Computer Operator ",
+      company: "NSU Book Shop",
+      period: "2020 - 2021",
+      description:
+        "Operated computer systems for official record management. Supported office documentation, student records, and data entry tasks efficiently. Assisted in maintaining the bookstore's inventory system.",
+    },
+    {
+      icon: Layers,
+      title: "Manager",
+      company: "Walton Exclusive Showroom",
+      period: "2016 - 2019",
+      description:
+        "Managed staff and inventory in a fast-paced retail environment.Increased sales through customer engagement and strategic planning. Maintained customer satisfaction with effective communication and service.",
+    },
+    {
+      icon: Briefcase,
+      title: "SalesMan",
+      company: "Alif- Lam",
+      period: "2013 - 2014",
+      description:
+        " Assisted customers in product selection and provided excellent service. Maintained product displays and inventory. Handled cash transactions and ensured accurate billing. Achieved monthly sales targets consistently.",
+    },
+    
   ];
 
   return (
